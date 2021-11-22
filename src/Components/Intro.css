@@ -1,0 +1,25 @@
+.intro {
+  text-align: center;
+
+  background: url("https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+.intro__img {
+  padding: 50px 0;
+}
+.intro__size {
+  margin-top: 40px;
+  width: 100px;
+  height: 130px;
+  border-radius: 50%;
+}
+.intro__name {
+  color: #fff;
+}
+.intro__title {
+  color: #fff;
+}

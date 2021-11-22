@@ -1,0 +1,33 @@
+.project__title {
+  text-align: center;
+  padding: 2rem 1rem 0.75rem;
+}
+.project__card {
+  margin-left: 75px;
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 30px;
+}
+
+@media screen and (max-width: 1030px) {
+  .project__card {
+    margin-left: 50px;
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .project__card {
+    margin-left: 70px;
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+  }
+}
